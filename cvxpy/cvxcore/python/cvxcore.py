@@ -6,10 +6,7 @@
 
 from sys import version_info as _swig_python_version_info
 # Import the low-level C/C++ module
-if __package__ or "." in __name__:
-    from . import _cvxcore
-else:
-    import _cvxcore
+import _cvxcore
 
 try:
     import builtins as __builtin__
